@@ -1,0 +1,29 @@
+hydra-core
+omegaconf
+wandb
+tqdm
+numpy
+transformers==5.6.2
+einops
+imageio
+Pillow
+opencv-python
+albumentations
+PyRender
+trimesh
+manotorch @ git+https://github.com/lixiny/manotorch.git
+scipy
+matplotlib
+seaborn
+xformers==0.0.35 # for torch 2.10.0
+websockets
+msgpack
+scikit-learn
+webdataset
+pyarrow>=16  # Released LeRobot v3 metadata and packed 74D frame tables
+av>=15,<17  # RGB and gray12le HEVC depth video decoding
+dill
+psutil
+# scripts/lerobot_to_wds.py (LeRobot -> webdataset conversion)
+av
+pyarrow
